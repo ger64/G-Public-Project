@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_calculator.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="calculator-body">
+        <div id="parent_calculator_display">
+            <div class="calculator_display" id="display">
+            
+            </div>
+        </div>
+        <div class="calculator_pad">
+            <div class="row row0">
+                <div class="col col0">
+                    <span class="clear">
+                        <button id="bt_clear">C</button>
+                    </span>
+                </div>
+                <div class="col col1">
+                    <span class="operator">
+                        <button id="bt_operator_div">/</button>
+                    </span>
+                </div>
+                <div class="col col2">
+                    <span class="operator">
+                        <button id="bt_operator_mult">*</button>
+                    </span>
+                </div>
+                <div class="col col3">
+                    <span class="del">
+                        <button id="bt_del">Del.</button>
+                    </span>
+                </div>
+            </div>
+            <div class="row row1">
+                <div class="col col0">
+                    <span class="digit">
+                        <button id="bt_digit_7">7</button>
+                    </span>
+                </div>
+                <div class="col col1">
+                    <span class="digit">
+                        <button id="bt_digit_8">8</button>
+                    </span>
+                </div>
+                <div class="col col2">
+                    <span class="digit">
+                        <button id="bt_digit_9">9</button>
+                    </span>
+                </div>
+                <div class="col col3">
+                    <span class="operator">
+                        <button id="bt_operator_minus">-</button>
+                    </span>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="col col0">
+                    <span class="digit">
+                        <button id="bt_digit_4">4</button>
+                    </span>
+                </div>
+                <div class="col col1">
+                    <span class="digit">
+                        <button id="bt_digit_5">5</button>
+                    </span>
+                </div>
+                <div class="col col2">
+                    <span class="digit">
+                        <button id="bt_digit_6">6</button>
+                    </span>
+                </div>
+                <div class="col col3">
+                    <span class="operator">
+                        <button id="bt_operator_plus">+</button>
+                    </span>
+                </div>
+            </div>
+            <div class="row row3">
+                <div class="col col0">
+                    <span class="digit">
+                        <button id="bt_digit_1">1</button>
+                    </span>
+                </div>
+                <div class="col col1">
+                    <span class="digit">
+                        <button id="bt_digit_2">2</button>
+                    </span>
+                </div>
+                <div class="col col2">
+                    <span class="digit">
+                        <button id="bt_digit_3">3</button>
+                    </span>
+                </div>
+                <div class="col col3">
+                    <span class="operator">
+                        <button id="bt_operator_equal">=</button>
+                    </span>
+                </div>
+            </div>
+            <div class="row row4">
+                <div class="col col0">
+                    <span class="rate">
+                        <button id="bt_rate">%</button>
+                    </span>
+                </div>
+                <div class="col col1">
+                    <span class="digit">
+                        <button id="bt_digit_0">0</button>
+                    </span>
+                </div>
+                <div class="col col2">
+                    <span class="dot">
+                        <button id="bt_dot">.</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script_functions.js"></script>
+    <script src="js/script_display_digits.js"></script>
+    <script src="js/script_display_operators.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

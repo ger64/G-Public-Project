@@ -1,0 +1,169 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
+}
+
+.calculator-body
+{
+    border-radius: 10px;
+
+    width: 350px;
+    height: 620px;
+
+    color: white;
+}
+
+#parent_calculator_display
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-wrap: wrap;
+
+    border-radius: 10px 10px 0 0;
+    
+    width: 100%;
+    height: 40%;
+
+    padding: 10px;
+
+    font-size: xx-large;
+
+    background-color: black;
+}
+
+.calculator_display 
+{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.calculator-display span {
+    color: white;
+}
+
+.calculator_pad 
+{
+    border-radius: 0 0 10px 10px;
+
+    width: 100%;
+    height: 60%;
+
+    padding: 10px;
+
+    background-color: #212121;
+}
+
+.row 
+{
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+}
+
+.row4
+{
+    width: 75%;
+}
+
+.col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    width: 25%;
+    height: 100%;
+}
+
+.row3 .col3
+{
+    height: 200%;
+    background-color: #212121;
+}
+
+.row3 .col3 button
+{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    color: white;
+    background-color: #0277bd;
+}
+
+.row3 .col3:active
+{
+    background-color: #0277bd;
+}
+
+.row3 .col3 button:active
+{
+    background-color: #0277bd;
+}
+
+.col span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 95%;
+    height: 95%;
+}
+
+.col span button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 80%;
+}
+
+.col span button:active {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.row4 .col
+{
+    width: 33.3%;
+}
+
+
+
+.digit button, .rate button, .dot button
+{
+    font-size: x-large;
+    color: white;
+}
+
+.operator button, .del button, .clear button
+{
+    
+    color: #0277bd;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+button
+{
+    border-style: none;
+
+    background-color: #212121;
+}
