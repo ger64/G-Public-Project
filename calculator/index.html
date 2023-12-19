@@ -4,126 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style_calculator.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
     <title>Calculatrice</title>
 </head>
 <body>
     <div class="calculator-body">
-        <div id="parent_calculator_display">
-            <div class="calculator_display" id="display">
-            
-            </div>
+        <div class="calculator-display">
+            <div class="display-one"></div>
+            <div class="display-two"></div>
         </div>
-        <div class="calculator_pad">
+        <div class="calculator-pad">
             <div class="row row0">
                 <div class="col col0">
-                    <span class="clear">
-                        <button id="bt_clear">C</button>
-                    </span>
+                    <button class="operator" id="bt-clear">C</button>
                 </div>
                 <div class="col col1">
-                    <span class="operator">
-                        <button id="bt_operator_div">/</button>
-                    </span>
+                    <button class="operator" id="bt-div">&divide;</button>
                 </div>
                 <div class="col col2">
-                    <span class="operator">
-                        <button id="bt_operator_mult">*</button>
-                    </span>
+                    <button class="operator" id="bt-mult">&times;</button>
                 </div>
                 <div class="col col3">
-                    <span class="del">
-                        <button id="bt_del">Del.</button>
-                    </span>
+                    <button id="bt-del"><i class="fa-solid fa-delete-left"></i></button>
                 </div>
             </div>
             <div class="row row1">
                 <div class="col col0">
-                    <span class="digit">
-                        <button id="bt_digit_7">7</button>
-                    </span>
+                    <button id="bt-7">7</button>
                 </div>
                 <div class="col col1">
-                    <span class="digit">
-                        <button id="bt_digit_8">8</button>
-                    </span>
+                    <button id="bt-8">8</button>
                 </div>
                 <div class="col col2">
-                    <span class="digit">
-                        <button id="bt_digit_9">9</button>
-                    </span>
+                    <button id="bt-9">9</button>
                 </div>
                 <div class="col col3">
-                    <span class="operator">
-                        <button id="bt_operator_minus">-</button>
-                    </span>
+                    <button class="operator" id="bt-minus">-</button>
                 </div>
             </div>
             <div class="row row2">
                 <div class="col col0">
-                    <span class="digit">
-                        <button id="bt_digit_4">4</button>
-                    </span>
+                    <button id="bt-4">4</button>
                 </div>
                 <div class="col col1">
-                    <span class="digit">
-                        <button id="bt_digit_5">5</button>
-                    </span>
+                        <button id="bt-5">5</button>
                 </div>
                 <div class="col col2">
-                    <span class="digit">
-                        <button id="bt_digit_6">6</button>
-                    </span>
+                    <button id="bt-6">6</button>
                 </div>
                 <div class="col col3">
-                    <span class="operator">
-                        <button id="bt_operator_plus">+</button>
-                    </span>
+                    <button class="operator" id="bt-plus">+</button>
                 </div>
             </div>
             <div class="row row3">
                 <div class="col col0">
-                    <span class="digit">
-                        <button id="bt_digit_1">1</button>
-                    </span>
+                    <button id="bt-1">1</button>
                 </div>
                 <div class="col col1">
-                    <span class="digit">
-                        <button id="bt_digit_2">2</button>
-                    </span>
+                    <button id="bt-2">2</button>
                 </div>
                 <div class="col col2">
-                    <span class="digit">
-                        <button id="bt_digit_3">3</button>
-                    </span>
+                    <button id="bt-3">3</button>
                 </div>
                 <div class="col col3">
-                    <span class="operator">
-                        <button id="bt_operator_equal">=</button>
-                    </span>
+                    <button id="bt-equal">=</button>
                 </div>
             </div>
             <div class="row row4">
                 <div class="col col0">
-                    <span class="rate">
-                        <button id="bt_rate">%</button>
-                    </span>
+                    <button id="bt-rate">%</button>
                 </div>
                 <div class="col col1">
-                    <span class="digit">
-                        <button id="bt_digit_0">0</button>
-                    </span>
+                    <button id="bt-0">0</button>
                 </div>
                 <div class="col col2">
-                    <span class="dot">
-                        <button id="bt_dot">.</button>
-                    </span>
+                    <button id="bt-dot">.</button>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/script_functions.js"></script>
-    <script src="js/script_display_digits.js"></script>
-    <script src="js/script_display_operators.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
